@@ -1,0 +1,8 @@
+PUT http://localhost:4020/api/ 
+Content-Type: application/json
+
+{
+  "id": "f0f3e3f4-1d17-413d-8ac3-abd3ce7f8d2d",
+  "name": "Task morning",
+  "detail": "details"
+}

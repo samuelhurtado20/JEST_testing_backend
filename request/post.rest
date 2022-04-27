@@ -1,0 +1,7 @@
+POST http://localhost:4020/api/ 
+Content-Type: application/json
+
+{
+  "name": "test category",
+  "detail": "details"
+}
