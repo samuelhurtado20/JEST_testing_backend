@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "dev": "nodemon index.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles --verbose",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --verbose",
     "test:watch": "npm run test -- --watchAll"
   },
   "keywords": [],

@@ -10,9 +10,9 @@ export default createLogger({
         format.timestamp({ format: 'MMM-DD-YYYY HH:mm:ss' }),
         format.align(),
         format.printf((info) => `${info.level}: ${[info.timestamp]}: ${info.message}`)
-      ),
-    }),
+      )
+    })
   ],
   exceptionHandlers: [new transports.File({ filename: 'logs/exceptions-' + filename })],
-  rejectionHandlers: [new transports.File({ filename: 'logs/rejections-' + filename })],
+  rejectionHandlers: [new transports.File({ filename: 'logs/rejections-' + filename })]
 })
